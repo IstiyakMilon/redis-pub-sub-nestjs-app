@@ -1,0 +1,11 @@
+# Ignore node_modules for both apps
+nest-redis-publisher/node_modules/
+nest-redis-subscriber/node_modules/
+
+# Ignore dist folders for both apps
+nest-redis-publisher/dist/
+nest-redis-subscriber/dist/
+
+# Optional: Ignore general OS/editor junk
+.DS_Store
+Thumbs.db
