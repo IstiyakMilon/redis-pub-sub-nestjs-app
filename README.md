@@ -15,7 +15,7 @@ This repository demonstrates **Redis Pub/Sub** using two separate NestJS applica
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```plaintext
 redis-pub-sub-nestjs-app/
@@ -28,7 +28,7 @@ redis-pub-sub-nestjs-app/
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Make sure you have the following installed on your system:
 
@@ -38,9 +38,9 @@ Make sure you have the following installed on your system:
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
-### 1️⃣ Clone the Repository
+### 1 Clone the Repository
 
 ```bash
 git clone <repo-url>
@@ -48,16 +48,16 @@ cd redis-pub-sub-nestjs-app
 
 ```
 
-# 🚀 Setup & Installation
+# Setup & Installation
 
-## 1️⃣ Clone the Repository
+## 1 Clone the Repository
 
 ```bash
 git clone <repo-url>
 cd redis-pub-sub-nestjs-app
 ```
 
-## 2️⃣ Start Redis
+## 2 Start Redis
 
 You can run Redis locally or via Docker.
 
@@ -79,7 +79,7 @@ docker run --name redis-pubsub -p 6379:6379 -d redis
 
 The container will run in detached mode and expose Redis on localhost:6379.
 
-## 3️⃣ Install Dependencies
+## 3 Install Dependencies
 
 ### **Install Publisher Dependencies**
 
@@ -95,7 +95,7 @@ cd nest-redis-subscriber
 npm install
 ```
 
-## ▶️ Running the Applications
+##  Running the Applications
 
 ### **Start the Subscriber (Port 3000)**
 
@@ -117,7 +117,7 @@ npm run start:dev
 
 - Exposes a **POST** endpoint for publishing messages to Redis.
 
-## 📡 Testing Redis Pub/Sub
+## Testing Redis Pub/Sub
 
 ### **Step 1 — Send a Message via Publisher**
 
@@ -142,8 +142,8 @@ curl -X POST http://localhost:3001/publish \
 In the Subscriber terminal, you should see:
 
 ```vbnet
-📩 Received message from channel "my-channel": Test Message
-💾 Saved to Redis: 1723189045123 -> Test Message
+ Received message from channel "my-channel": Test Message
+ Saved to Redis: 1723189045123 -> Test Message
 ```
 
 ### **Step 3 — Verify Saved Data in Redis**
@@ -166,7 +166,7 @@ Retrieve a value:
 GET <key>
 ```
 
-## 📝 How It Works
+## How It Works
 
 ### Publisher
 
