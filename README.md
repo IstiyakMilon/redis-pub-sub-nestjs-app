@@ -40,7 +40,7 @@ Make sure you have the following installed on your system:
 
 ## Setup & Installation
 
-### 1 Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone <repo-url>
@@ -50,14 +50,14 @@ cd redis-pub-sub-nestjs-app
 
 # Setup & Installation
 
-## 1 Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone <repo-url>
 cd redis-pub-sub-nestjs-app
 ```
 
-## 2 Start Redis
+## 2. Start Redis
 
 You can run Redis locally or via Docker.
 
@@ -79,7 +79,7 @@ docker run --name redis-pubsub -p 6379:6379 -d redis
 
 The container will run in detached mode and expose Redis on localhost:6379.
 
-## 3 Install Dependencies
+## 3. Install Dependencies
 
 ### **Install Publisher Dependencies**
 
